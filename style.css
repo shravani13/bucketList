@@ -1,0 +1,71 @@
+body{
+    margin: 50px;
+    /* background-color: rgb(210, 210, 249); */
+    background-image: url(https://images.unsplash.com/photo-1676242848090-48f3a5981263?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    /* border: 1px solid black; */
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-weight: 3em;
+    text-align: center;
+}
+.in{
+    font-size: 1.5em;
+    border-radius: 0.2em;
+    color: white;
+}
+#input-text{
+    width: 23em;
+    height: 1em;
+    background-color: rgb(245, 186, 186);
+    /* border: 0.4em solid pink; */
+    border: 0;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+#input-enter{
+    width: 4em;
+    height: 1.8em;
+    background-color: black;
+}
+
+#input-container{
+ /* border: 1px solid red; */
+ margin-left: 15em;
+ margin-right: 15em;
+ padding: 12px;
+}
+#container{
+    /* border: 1px solid red; */
+    margin-left: 15em;
+    margin-right: 15em;
+    background-color: black;
+    color: white;
+    border: 0;
+    
+}
+#list{
+    font-size: 1.5em;
+    border-bottom: 0.05em solid white;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+#delete{
+    background-color: black;
+    border: 0;
+    position: absolute;
+    right: 0;
+}
+.checkedItem{
+    text-decoration: line-through;
+}
+#container input{
+    cursor: pointer;
+}
+#container label{
+    padding-left: 0.3em;
+}
+
+
